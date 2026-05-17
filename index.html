@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Full Stack | Fabricio de Oliveira</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" type="image/png" href="./img/Icone-aba.png" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#inicio" class="brand">Fabra <span>Oliveira</span></a>
+
+      <div class="nav-right">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" />
+        <label for="menu-toggle" class="hamburger" aria-hidden="true"><span></span></label>
+
+        <nav class="nav-links" aria-label="Navegação principal">
+          <a href="#projetos">Projetos</a>
+          <a href="#sobre">Sobre mim</a>
+          <a href="#stack">Stack</a>
+          <a href="#contato" class="nav-cta">Contato</a>
+        </nav>
+
+        <label class="theme-control" for="theme-toggle">
+          <input type="checkbox" id="theme-toggle" />
+          <span class="switch" aria-hidden="true"></span>
+          <span class="theme-label">Tema claro</span>
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" id="inicio">
+      <div class="hero-content">
+        <span class="eyebrow">Portfólio Full Stack • Desenvolvimento Web</span>
+        <h1>Desenvolvedor <span>Full Stack Web</span></h1>
+        <p class="hero-text">
+          Crio interfaces modernas, responsivas e acessíveis, conectando boas práticas de front-end com lógica de back-end para transformar ideias em aplicações web funcionais.
+        </p>
+        <div class="hero-actions">
+          <a href="https://drive.google.com/file/d/1AC_h_9OhKcI3USH8BHn_XfOte2lta0VQ/view" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Ver Currículo</a>
+          <a href="#contato" class="btn btn-secondary">Contato profissional</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Área visual do perfil">
+        <article class="profile-card">
+          <div class="profile-photo">
+            <img src="./img/Perfil-Escuro.png" alt="Foto de Perfil" class="theme-image--dark">
+            <img src="./img/Perfil-Claro.png" alt="Foto de Perfil" class="theme-image--light">
+          </div>
+          <div class="profile-info">
+            <h2>Fabricio de Oliveira</h2>
+            <p>ADS • Engenharia de Software • Pós em Full Stack</p>
+            <div class="mini-stack">
+              <span class="pill">HTML</span>
+              <span class="pill">CSS</span>
+              <span class="pill">JavaScript</span>
+              <span class="pill">Full Stack</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container" id="projetos">
+      <div class="section-head">
+        <h2>Projetos em destaque</h2>
+        <p>Uma seleção de projetos web com foco em estrutura semântica, responsividade, organização visual e experiência do usuário.</p>
+      </div>
+
+      <div class="projects-carousel" aria-label="Carrossel de projetos">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="./img/Excel-Escuro.png" alt="Planilha Financeira" class="theme-image--dark">
+            <img src="./img/Excel-claro.png" alt="Planilha Financeira" class="theme-image--light">
+          </div>
+          <div class="project-content">
+            <h3>Planilha Financeira</h3>
+            <p>Controle financeiro com foco em organização, automação e apresentação clara das informações.</p>
+            <a href="https://github.com/FabraOliveira/planilha-financeira?tab=readme-ov-file" target="_blank" rel="noopener noreferrer" class="project-link">Visitar o projeto</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="./img/agendamento-Escuro.png" alt="Agendamento" class="theme-image--dark">
+            <img src="./img/agendamento-Claro.png" alt="Agendamento" class="theme-image--light">
+          </div>
+          <div class="project-content">
+            <h3>Agendamento</h3>
+            <p>Interface para organização de horários, cadastros e fluxo simples de reservas ou atendimentos.</p>
+            <a href="#modal-agendamento" class="project-link">Ver status</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="./img/Unicesumar-Escuro.png" alt="Ambientação Unicesumar" class="theme-image--dark">
+            <img src="./img/Unicesumar-Claro.png" alt="Ambientação Unicesumar" class="theme-image--light">
+          </div>
+          <div class="project-content">
+            <h3>Ambientação Unicesumar</h3>
+            <p>Página de apoio para orientar alunos, reunir acessos importantes e facilitar a navegação inicial.</p>
+            <a href="https://fabraoliveira.github.io/guia-studeo/" target="_blank" rel="noopener noreferrer" class="project-link">Visitar o projeto</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="./img/Alura-Escuro.png" alt="Alura Marketplace" class="theme-image--dark">
+            <img src="./img/Alura--tema-claro.png" alt="Alura Marketplace" class="theme-image--light">
+          </div>
+          <div class="project-content">
+            <h3>Alura Marketplace</h3>
+            <p>Projeto de estudo com foco em layout, cards, organização visual e experiência de compra simulada.</p>
+            <a href="https://fabraoliveira.github.io/Alura-HTML-CSS/#inicio" target="_blank" rel="noopener noreferrer" class="project-link">Visitar o projeto</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="./img/redes-sociais-escuro.png" alt="Redes Sociais Hub de Links" class="theme-image--dark">
+            <img src="./img/redes-sociais-claro.png" alt="Redes Sociais Hub de Links" class="theme-image--light">
+          </div>
+          <div class="project-content">
+            <h3>Redes Sociais Hub de Links</h3>
+            <p>Hub de links com perfis profissionais, redes sociais e atalhos para os principais canais.</p>
+            <a href="https://fabraoliveira.github.io/redesociais" target="_blank" rel="noopener noreferrer" class="project-link">Visitar o projeto</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="./img/Portfolio-Escuro.png" alt="Portfolio Infra" class="theme-image--dark">
+            <img src="./img/Portfolio-Claro.png" alt="Portfolio Infra" class="theme-image--light">
+          </div>
+          <div class="project-content">
+            <h3>Portfolio Infra</h3>
+            <p>Portfólio separado para apresentar projetos, documentação e experiência em infraestrutura e redes.</p>
+            <a href="https://fabraoliveira.github.io/portfolio-infra/#inicio" target="_blank" rel="noopener noreferrer" class="project-link">Visitar o projeto</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="./img/Bibliotech-escuro.png" alt="Bibliotech" class="theme-image--dark">
+            <img src="./img/Bibliotech-claro.png" alt="Bibliotech" class="theme-image--light">
+          </div>
+          <div class="project-content">
+            <h3>Bibliotech</h3>
+            <p>Projeto web voltado para organização, consulta e apresentação de informações de biblioteca.</p>
+            <a href="https://fabraoliveira.github.io/Bibliotech" target="_blank" rel="noopener noreferrer" class="project-link">Visitar o projeto</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="./img/Trilha-dev-escuro.png" alt="Trilha do Dev" class="theme-image--dark">
+            <img src="./img/Trilha-dev-claro.png" alt="Trilha do Dev" class="theme-image--light">
+          </div>
+          <div class="project-content">
+            <h3>Trilha do Dev</h3>
+            <p>Projeto educacional para organizar conteúdos, etapas de estudo e evolução no desenvolvimento web.</p>
+            <a href="https://fabraoliveira.github.io/Trilha-do-Dev" target="_blank" rel="noopener noreferrer" class="project-link">Visitar o projeto</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container" id="sobre">
+      <div class="section-head">
+        <h2>Sobre mim</h2>
+        <p>Perfil direcionado ao desenvolvimento web full stack, com base acadêmica sólida e prática em criação de soluções digitais.</p>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-card">
+          <p>
+            Sou formado em Análise e Desenvolvimento de Sistemas e em Engenharia de Software. Atualmente curso pós-graduação em Desenvolvimento Full Stack, aprofundando meus conhecimentos em aplicações web modernas, organização de código e construção de soluções completas.
+          </p>
+          <p>
+            Meu foco está em desenvolver sites e aplicações web com estrutura limpa, layout responsivo, boa experiência de navegação e atenção aos detalhes visuais e técnicos.
+          </p>
+        </article>
+
+        <article class="about-card">
+          <ul class="about-list">
+            <li>Construção de páginas modernas com HTML5 e CSS3.</li>
+            <li>Responsividade com Flexbox, CSS Grid e media queries.</li>
+            <li>Boas práticas de semântica, acessibilidade e organização.</li>
+            <li>Estudo contínuo de front-end, back-end e ferramentas de produtividade.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="container" id="stack">
+      <div class="section-head">
+        <h2>Stack & Ferramentas</h2>
+        <p>Tecnologias e recursos utilizados nos estudos e projetos de desenvolvimento web.</p>
+      </div>
+
+      <div class="stack-grid">
+        <article class="stack-card"><strong>HTML5</strong><span>Semântica e estrutura</span></article>
+        <article class="stack-card"><strong>CSS3</strong><span>Layout, animações e responsividade</span></article>
+        <article class="stack-card"><strong>JavaScript</strong><span>Interatividade e lógica</span></article>
+        <article class="stack-card"><strong>React</strong><span>Componentização web</span></article>
+        <article class="stack-card"><strong>Node.js</strong><span>Base para back-end</span></article>
+        <article class="stack-card"><strong>Git/GitHub</strong><span>Versionamento e publicação</span></article>
+        <article class="stack-card"><strong>Antigravity</strong><span>Apoio no fluxo de desenvolvimento</span></article>
+        <article class="stack-card"><strong>CSS Avançado</strong><span>:has(), seleção, tema e menu CSS</span></article>
+      </div>
+    </section>
+
+    <section class="container" id="contato">
+      <div class="contact-band">
+        <div>
+          <h2>Vamos conversar?</h2>
+          <p>Contato profissional para oportunidades, projetos e networking.</p>
+        </div>
+        <a href="mailto:fabricio.bimbi@outlook.com.br" class="btn btn-primary">Enviar e-mail</a>
+      </div>
+    </section>
+    <section id="modal-agendamento" class="modal">
+      <div class="modal-content">
+        <a href="#projetos" class="modal-close" aria-label="Fechar modal">×</a>
+        <h3>Projeto em construção</h3>
+        <p>Este projeto ainda está em desenvolvimento. Em breve, novidades por aqui.</p>
+        <a href="#projetos" class="btn btn-primary">Fechar</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>Redes Sociais</h3>
+        <div class="social-icons" aria-label="Links das redes sociais">
+          <a href="#" class="social-icon" aria-label="GitHub">
+            <img src="./img/github-Escuro.png" alt="GitHub" class="theme-image--dark">
+            <img src="./img/github-claro.png" alt="GitHub" class="theme-image--light">
+          </a>
+          <a href="#" class="social-icon" aria-label="LinkedIn">
+            <img src="./img/linkedin.png" alt="LinkedIn">
+          </a>
+          <a href="#" class="social-icon" aria-label="Instagram">
+            <img src="./img/instagram.png" alt="Instagram">
+          </a>
+          <a href="#" class="social-icon" aria-label="YouTube">
+            <img src="./img/youtube.png" alt="YouTube">
+          </a>
+          <a href="#" class="social-icon" aria-label="TikTok">
+            <img src="./img/tik-tok-Escuro.png" alt="TikTok" class="theme-image--dark">
+            <img src="./img/tik-tok-Claro.png" alt="TikTok" class="theme-image--light">
+          </a>
+          <a href="mailto:fabricio.bimbi@outlook.com.br" class="social-icon" aria-label="E-mail">
+            <img src="./img/e-mail-escuro.png" alt="E-mail" class="theme-image--dark">
+            <img src="./img/e-mail-Claro.png" alt="E-mail" class="theme-image--light">
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h3>Tecnologias Utilizadas</h3>
+        <p>Projeto desenvolvido 100% em HTML5 e CSS3, sem frameworks ou bibliotecas externas.</p>
+      </div>
+
+      <div class="footer-col">
+        <h3>Desenvolvido por</h3>
+        <p>© Fabricio de Oliveira Bimbi 2026</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
