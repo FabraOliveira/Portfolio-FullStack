@@ -2,7 +2,7 @@
 
 🚀 Bem-vindo ao meu portfólio profissional! Este projeto é uma vitrine do meu trabalho como **Desenvolvedor Front-end**, onde apresento minhas habilidades, tecnologias dominadas e projetos realizados.
 
-[🔗 Acesse o portfólio online](https://fabraoliveira.github.io/portfolio/#inicio)
+[🔗 Acesse o portfólio online](https://fabraoliveira.github.io/Portfolio-FullStack/#inicio)
 
 ---
 
