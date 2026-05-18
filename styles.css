@@ -499,6 +499,12 @@ section {
   object-fit: contain;
 }
 
+.project-image .project-thumb--agendamento,
+.project-image .project-thumb--portfolio {
+  max-width: 85px;
+  max-height: 70px;
+}
+
 .project-content {
   padding: 22px;
 }
